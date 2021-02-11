@@ -11,14 +11,14 @@ int sum(int A)
 	}
 
 	return S;
-} // 함수 sum 
+} // 함수 sum 정의
 
 int main(void)
 {
 	int a, result;
 
 	printf("양의 정수 한 개를 입력하시오. : ");
-	scanf_s("%d", &a);
+	scanf_s("%d", &a); // 정수 
 
 	result = sum(a);
 
